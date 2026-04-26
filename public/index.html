@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oryn AI</title>
+  <!-- Phosphor Icons for crisp minimal icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="chat-header">
+      <div class="header-info">
+        <div class="bot-avatar"><i class="ph-fill ph-planet"></i></div>
+        <div class="header-text">
+          <h1>Oryn AI</h1>
+          <p class="status"><span></span> Based on Gemini</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Chat Area -->
+    <main class="chat-window" id="chat-window">
+      <!-- Initial welcome message -->
+      <div class="message bot-message slide-in">
+        <div class="message-bubble">
+          Hello! I'm Oryn, your intelligent assistant. How can I help you today?
+        </div>
+      </div>
+    </main>
+
+    <!-- Input Area -->
+    <footer class="chat-input-area">
+      <form id="chat-form">
+        <div class="input-wrapper">
+          <input type="text" id="user-input" placeholder="Ask Oryn something..." autocomplete="off">
+          <button type="submit" id="send-btn" class="send-btn primary-btn">
+            Send
+          </button>
+        </div>
+      </form>
+      <p class="footer-note">Oryn AI can make mistakes. Consider verifying important information.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "oryn_ai",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "shivam",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.50.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
